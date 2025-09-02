@@ -1,0 +1,76 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Projectiles
+  m_EditorClassIdentifier: 
+  m_GroupName: Projectiles
+  m_GUID: d4c1352874e5a73459dc0323ea3d42e2
+  m_SerializeEntries:
+  - m_GUID: 146ea5f675defa042806e26ce1320f9a
+    m_Address: TankBullet
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ProjectileView
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1e55fef596939d54c8bec651ab3106be
+    m_Address: BaseProjectile
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 47908e27da696aa47a9e0c7e90228613
+    m_Address: GoldBullet
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ProjectileView
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5b6c910cf85e8bd468301ce8c27f83bd
+    m_Address: RocketMuzzle
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ProjectileView
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5db7f898c53824c4db3a46a27ef8115b
+    m_Address: RocketBullet
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ProjectileView
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d7c947ae20a6a9f448877d468faf593a
+    m_Address: FireballBullet
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ProjectileView
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: dcb9c1a5a2d247e49b88e7a72adce938
+    m_Address: ImpactExp
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ProjectileView
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e6cc7276e5b2c104f92e0aef9227f842
+    m_Address: BulletMuzzle
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ProjectileView
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f0fa348b8dae2524c9e0caa2b1ca9248
+    m_Address: GunshotMuzzle
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ProjectileView
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 95b16e5153314c94e970331c0ef9b1fc, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 79772ce42fe7d8a4483d8093f89a07fc, type: 2}
+    - {fileID: 11400000, guid: f347053139c19014c9d034ff726a402d, type: 2}

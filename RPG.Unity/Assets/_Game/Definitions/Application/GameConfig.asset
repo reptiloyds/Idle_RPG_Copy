@@ -1,0 +1,382 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c47ab688db5a904f96606bb53cff810, type: 3}
+  m_Name: GameConfig
+  m_EditorClassIdentifier: 
+  PauseConfiguration:
+    ImportantAnimation: 32
+    OpenWindow: 16
+    CameraMovement: 112
+    BeforeAd: 49
+    Ad: 51
+  SaveConfiguration:
+    AutoSaveDelay: 20
+    AutoSyncDelay: 25
+  BalanceConfiguration:
+    Source: 0
+    CDNRoot: https://rpg.amazed.games/Configs/
+    UseCDNOnlyInBuild: 1
+  AssetProviderDefinition:
+    UploadingDurationOffset: 0
+    FrameDelayBeforeUploadWindow: 60
+  AdDefinition:
+    DisabledByDefault: 1
+  MainModeConfiguration:
+    ActionAfterAllyWin: 0100000002000000
+    LocationSpeed: 13
+    BonusUnitSpeed: 5
+    SwitchWaveDuration: 1
+    SwitchWaveDurationUI: 0.5
+    BossHealthBarSize: {x: 220, y: 45}
+  DungeonConfiguration:
+    AutoSweepDelay: 5
+  BossRushConfiguration:
+    ActionAfterAllyWin: 01000000
+    LocationSpeed: 8
+    BonusUnitSpeed: 5
+    SwitchWaveDuration: 0.01
+    BossHealthBarSize: {x: 220, y: 45}
+    AutoLoseTimeInSeconds: 45
+    RewardType: 2
+    RewardColor: {r: 1, g: 0.3443396, b: 0.8424953, a: 1}
+    SubModeSetup:
+      BackgroundRef:
+        m_AssetGUID: 121b7a635399272418261d33636c2f0c
+        m_SubObjectName: 
+        m_SubObjectType: 
+        m_EditorAssetChanged: 1
+      Color: {r: 1, g: 0, b: 0.47058827, a: 1}
+      EnterPriceType: 5
+      DailyEnterResourceAmount: 2
+      DailyEnterBonusAmount: 2
+  SoftRushConfiguration:
+    BossHealthBarSize: {x: 220, y: 45}
+    AutoLoseTimeInSeconds: 45
+    RewardType: 1
+    RewardColor: {r: 1, g: 0.711412, b: 0, a: 1}
+    SubModeSetup:
+      BackgroundRef:
+        m_AssetGUID: 5dd7f9574363a9044820d2186d6a6775
+        m_SubObjectName: 
+        m_SubObjectType: 
+        m_EditorAssetChanged: 1
+      Color: {r: 1, g: 0.7058824, b: 0, a: 1}
+      EnterPriceType: 6
+      DailyEnterResourceAmount: 2
+      DailyEnterBonusAmount: 2
+  SlotRushConfiguration:
+    SubModeSetup:
+      BackgroundRef:
+        m_AssetGUID: 9aea06c880b97014eba80bf6bb8282da
+        m_SubObjectName: 
+        m_SubObjectType: 
+        m_EditorAssetChanged: 0
+      Color: {r: 1, g: 0.2661133, b: 0.24056602, a: 1}
+      EnterPriceType: 7
+      DailyEnterResourceAmount: 2
+      DailyEnterBonusAmount: 2
+  ResourceConfiguration:
+    PresentInGame: 0100000002000000
+    OfferInApp: 
+  ItemConfiguration:
+    _itemRarities:
+    - Rarity: 1
+      Color: {r: 1, g: 0.98783517, b: 0.7688679, a: 1}
+    - Rarity: 2
+      Color: {r: 0.70980394, g: 0.86666673, b: 0.43529415, a: 1}
+    - Rarity: 3
+      Color: {r: 0.14901961, g: 0.72156864, b: 0.9215687, a: 1}
+    - Rarity: 4
+      Color: {r: 0.909804, g: 0.14901961, b: 0.9176471, a: 1}
+    - Rarity: 5
+      Color: {r: 1, g: 0.5645161, b: 0.14516127, a: 1}
+    - Rarity: 6
+      Color: {r: 0.24154395, g: 0.872, b: 0.6112559, a: 1}
+    - Rarity: 7
+      Color: {r: 1, g: 0.2605042, b: 0.28571433, a: 1}
+  LootboxConfiguration:
+    Ftues:
+    - LootboxId: CommonStuff
+      OpenNumber: 0
+      ItemIds:
+      - Bat
+      - Helmet_02
+    - LootboxId: Skills
+      OpenNumber: 0
+      ItemIds:
+      - Grenades
+    - LootboxId: Companions
+      OpenNumber: 0
+      ItemIds:
+      - Buggy
+  PassiveIncomeConfiguration:
+    OfflineSoftK: 1
+    OnlineSoftK: 1
+    BonusIncomeK: 2
+    IncomeHoursLimit: 12
+    TickDurationInMinutes: 1
+    CooldownInMinutes: 5
+  SkillConfiguration:
+    AutoCastDelay: 0.5
+  NotificationConfiguration:
+    StuffSetup:
+      RootSetup:
+        Enable: 1
+        ButtonId: BranchWindow_Switch
+        NotificationSetup:
+          AnchorMin: {x: 0, y: 1}
+          AnchorMax: {x: 0, y: 1}
+          AnchoredPosition: {x: 25, y: -20}
+      CommonImageSetup:
+        ImageType: 1
+        Size: {x: 40, y: 40}
+      ItemSetup:
+        AnchorMin: {x: 0, y: 1}
+        AnchorMax: {x: 0, y: 1}
+        AnchoredPosition: {x: 10, y: -10}
+      SlotSetup:
+        AnchorMin: {x: 1, y: 1}
+        AnchorMax: {x: 1, y: 1}
+        AnchoredPosition: {x: -10, y: -10}
+      EquipSetup:
+        AnchorMin: {x: 0, y: 1}
+        AnchorMax: {x: 0, y: 1}
+        AnchoredPosition: {x: 10, y: -10}
+      EnhanceSetup:
+        AnchorMin: {x: 0, y: 1}
+        AnchorMax: {x: 0, y: 1}
+        AnchoredPosition: {x: 10, y: -10}
+    SkillSetup:
+      RootSetup:
+        Enable: 1
+        ButtonId: SkillInventoryWindow_Switch
+        NotificationSetup:
+          AnchorMin: {x: 0, y: 1}
+          AnchorMax: {x: 0, y: 1}
+          AnchoredPosition: {x: 25, y: -20}
+      ImageSetup:
+        ImageType: 1
+        Size: {x: 40, y: 40}
+      EnhanceSetup:
+        AnchorMin: {x: 0, y: 1}
+        AnchorMax: {x: 0, y: 1}
+        AnchoredPosition: {x: 10, y: -10}
+    CompanionSetup:
+      RootSetup:
+        Enable: 1
+        ButtonId: CompanionInventoryWindow_Switch
+        NotificationSetup:
+          AnchorMin: {x: 0, y: 1}
+          AnchorMax: {x: 0, y: 1}
+          AnchoredPosition: {x: 25, y: -20}
+      ImageSetup:
+        ImageType: 1
+        Size: {x: 40, y: 40}
+      EnhanceSetup:
+        AnchorMin: {x: 0, y: 1}
+        AnchorMax: {x: 0, y: 1}
+        AnchoredPosition: {x: 10, y: -10}
+    SubModeSetup:
+      RootSetup:
+        Enable: 0
+        ButtonId: 
+        NotificationSetup:
+          AnchorMin: {x: 0, y: 1}
+          AnchorMax: {x: 0, y: 1}
+          AnchoredPosition: {x: 10, y: -10}
+      ImageSetup:
+        ImageType: 1
+        Size: {x: 40, y: 40}
+      EnterSetup:
+        AnchorMin: {x: 0, y: 1}
+        AnchorMax: {x: 0, y: 1}
+        AnchoredPosition: {x: 10, y: -10}
+    CollectionSetup:
+      RootSetup:
+        Enable: 1
+        ButtonId: CollectionWindow
+        NotificationSetup:
+          AnchorMin: {x: 0, y: 1}
+          AnchorMax: {x: 0, y: 1}
+          AnchoredPosition: {x: 15, y: -15}
+      ImageSetup:
+        ImageType: 1
+        Size: {x: 40, y: 40}
+      EnhanceSetup:
+        AnchorMin: {x: 0, y: 1}
+        AnchorMax: {x: 0, y: 1}
+        AnchoredPosition: {x: 10, y: -10}
+      BookmarkSetup:
+        AnchorMin: {x: 0.5, y: 0}
+        AnchorMax: {x: 0.5, y: 0}
+        AnchoredPosition: {x: 0, y: 0}
+    ShopSetup:
+      RootSetup:
+        Enable: 1
+        ButtonId: ShopHubWindow_Switch
+        NotificationSetup:
+          AnchorMin: {x: 0, y: 1}
+          AnchorMax: {x: 0, y: 1}
+          AnchoredPosition: {x: 25, y: -20}
+      LootboxSwitcherSetup:
+        AnchorMin: {x: 0, y: 1}
+        AnchorMax: {x: 0, y: 1}
+        AnchoredPosition: {x: 10, y: -10}
+      LootboxSetup:
+        AnchorMin: {x: 0, y: 1}
+        AnchorMax: {x: 0, y: 1}
+        AnchoredPosition: {x: 10, y: -10}
+      LootboxImageSetup:
+        ImageType: 2
+        Size: {x: 60, y: 60}
+      ProductSwitcherSetup:
+        AnchorMin: {x: 0, y: 1}
+        AnchorMax: {x: 0, y: 1}
+        AnchoredPosition: {x: 10, y: -10}
+      ProductSetup:
+        AnchorMin: {x: 0, y: 1}
+        AnchorMax: {x: 0, y: 1}
+        AnchoredPosition: {x: 10, y: -10}
+      ProductImageSetup:
+        ImageType: 1
+        Size: {x: 40, y: 40}
+      PeriodicProductSwitcherSetup:
+        AnchorMin: {x: 0, y: 1}
+        AnchorMax: {x: 0, y: 1}
+        AnchoredPosition: {x: 10, y: -10}
+      PeriodicProductTabSetup:
+        AnchorMin: {x: 0, y: 1}
+        AnchorMax: {x: 0, y: 1}
+        AnchoredPosition: {x: 10, y: -10}
+      PeriodicProductSetup:
+        AnchorMin: {x: 0, y: 1}
+        AnchorMax: {x: 0, y: 1}
+        AnchoredPosition: {x: 10, y: -10}
+      PeriodicProductImageSetup:
+        ImageType: 1
+        Size: {x: 40, y: 40}
+    DailyRouletteSetup:
+      RootSetup:
+        Enable: 1
+        ButtonId: DailyRouletteButton
+        NotificationSetup:
+          AnchorMin: {x: 1, y: 1}
+          AnchorMax: {x: 1, y: 1}
+          AnchoredPosition: {x: -10, y: -10}
+      ImageSetup:
+        ImageType: 1
+        Size: {x: 40, y: 40}
+      SpinSettup:
+        AnchorMin: {x: 1, y: 1}
+        AnchorMax: {x: 1, y: 1}
+        AnchoredPosition: {x: -10, y: -10}
+    BlessingNotificationSetup:
+      ImageSetup:
+        ImageType: 2
+        Size: {x: 40, y: 40}
+      ButtonSetup:
+        AnchorMin: {x: 1, y: 1}
+        AnchorMax: {x: 1, y: 1}
+        AnchoredPosition: {x: -15, y: -15}
+    DailiesNotificationSetup:
+      RootSetup:
+        Enable: 1
+        ButtonId: DailiesWindow
+        NotificationSetup:
+          AnchorMin: {x: 0, y: 1}
+          AnchorMax: {x: 0, y: 1}
+          AnchoredPosition: {x: 10, y: -10}
+      ImageSetup:
+        ImageType: 1
+        Size: {x: 40, y: 40}
+      ClaimSetup:
+        AnchorMin: {x: 1, y: 1}
+        AnchorMax: {x: 1, y: 1}
+        AnchoredPosition: {x: 0, y: -10}
+    PhoneNotificationSetup:
+      RootSetup:
+        Enable: 1
+        ButtonId: PhoneWindow_Switch
+        NotificationSetup:
+          AnchorMin: {x: 0, y: 1}
+          AnchorMax: {x: 0, y: 1}
+          AnchoredPosition: {x: 25, y: -20}
+      ImageSetup:
+        ImageType: 1
+        Size: {x: 40, y: 40}
+      IconSetup:
+        AnchorMin: {x: 0, y: 1}
+        AnchorMax: {x: 0, y: 1}
+        AnchoredPosition: {x: 10, y: -10}
+      ChatSetup:
+        AnchorMin: {x: 1, y: 0.5}
+        AnchorMax: {x: 1, y: 0.5}
+        AnchoredPosition: {x: -30, y: 0}
+  BigValueConfiguration:
+    Postifixes:
+    - K
+    - M
+    - B
+    - T
+    - Qa
+    - Qi
+    - Sx
+    - Sp
+    - Oc
+    - No
+    - Dc
+    - Ud
+    - Dd
+    - Td
+    - Qad
+    - Qid
+    - Sxd
+    - Spd
+    - Ocd
+    - Nod
+    - Vg
+  AudioConfiguration:
+    AudioMixerRef:
+      m_AssetGUID: fb9ec53549bfff94f8da118ca790a4df
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    DefaultCapacity: 10
+    MaxPoolSize: 100
+    MaxSoundInstances: 30
+    SnapshotSetups:
+    - Type: 0
+      TransitionTime: 0.5
+    - Type: 1
+      TransitionTime: 0.5
+    AudioEmitterPrefab: {fileID: 124233215811357631, guid: 96a5dca4953c43541b96153490a2915d, type: 3}
+  MusicConfiguration:
+    Mode: 3
+    MusicList: 0100000003000000
+    MusicType: 0
+  CheatConfiguration:
+    UnlockContentTypes: 01000000020000000300000005000000060000000700000008000000
+  InternetConnectionConfiguration:
+    FrequentPingDelay: 1
+    RarePingDelay: 3
+    Uris:
+    - https://dev.amazed.games
+  PrivacyPolicyConfiguration:
+    Uris:
+    - Uri: https://firebase.google.com/support/privacy
+      UriName: Firebase Privacy Policy
+    - Uri: https://policies.google.com/privacy
+      UriName: Admob Privacy Policy
+    - Uri: https://unity.com/legal/privacy-policy
+      UriName: Unity Privacy Policy
+  ChatDefinition:
+    PrintDelay: 2

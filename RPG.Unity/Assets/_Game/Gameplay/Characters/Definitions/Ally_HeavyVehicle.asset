@@ -1,0 +1,74 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a198d4c2164043b3be4a19962b16268d, type: 3}
+  m_Name: Ally_HeavyVehicle
+  m_EditorClassIdentifier: 
+  VisualOffset: {x: 0, y: 0, z: 0}
+  ProjectileOffset: 1.5
+  RenderData:
+    CameraDistance: 5
+    Rotation: {x: 10, y: 30, z: 0}
+    Offset: {x: 0.65, y: 0.75, z: 0}
+    LightType: 2
+    LightRange: 30
+    LightPosition: {x: -0.9, y: 2, z: -2.7}
+    LightRotation: {x: 0, y: 0, z: 0}
+  HealthData:
+    HideWhenFull: 0
+    ViewOffset: 2.65
+  MovementData:
+    Type: 0
+    AnimateFakeMovement: 1
+    StartFakeMovement:
+      startFromCurrent: 0
+      startValue: 0
+      endValue: -1.25
+      settings:
+        duration: 1.5
+        ease: 0
+        customEase:
+          serializedVersion: 2
+          m_Curve: []
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 4
+        cycles: 1
+        cycleMode: 0
+        startDelay: 0
+        endDelay: 0
+        useUnscaledTime: 0
+        useFixedUpdate: 0
+    StopFakeMovement:
+      startFromCurrent: 0
+      startValue: 0
+      endValue: 0
+      settings:
+        duration: 0.75
+        ease: 0
+        customEase:
+          serializedVersion: 2
+          m_Curve: []
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 4
+        cycles: 1
+        cycleMode: 0
+        startDelay: 0
+        endDelay: 0
+        useUnscaledTime: 0
+        useFixedUpdate: 0
+  PhysicsData:
+    Height: 1
+    Radius: 2
+  CombatData:
+    ProviderType: 0
+    Decorator: 7
